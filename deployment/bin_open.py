@@ -39,6 +39,5 @@ def bin_open(predicted_label):
         non_degrade_action()
     # pi.stop()
 
-# bin_open("degrade")
 if __name__=="__main__":
     bin_open("degrade")

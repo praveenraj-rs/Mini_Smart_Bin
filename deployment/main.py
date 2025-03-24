@@ -26,7 +26,6 @@ def on_motion():
     # Opening bin
     bin_open(predicted_label)
     
-    print('going to next')
     # Fill measure
     res = fill_measure(predicted_label)
     print(res)

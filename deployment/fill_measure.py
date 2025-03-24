@@ -81,7 +81,7 @@ def fill_measure(predicted_label):
 
     print(f" - Fill Levels: {updated_json_data}")
 
-    return updated_json_data
+    return [updated_json_data['degrade'],updated_json_data['non-degrade']]
 
 if __name__=="__main__":
     fill_measure("degrade")

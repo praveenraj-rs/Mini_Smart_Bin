@@ -7,7 +7,7 @@ import numpy as np
 from PIL import Image
 
 def gen_labels():
-    train = '../data/train'
+    train = '../img_processing/data/train'
     train_generator = ImageDataGenerator(rescale = 1/255)
 
     train_generator = train_generator.flow_from_directory(train,

@@ -8,7 +8,7 @@ def process_captured_image(file_path):
     image = Image.open(file_path)
     img = preprocess(image)
     model = model_arc()
-    model.load_weights("../weights/model.h5")
+    model.load_weights("../img_processing/weights/model.h5")
 
     # Make prediction
     prediction = model.predict(img[np.newaxis, ...])

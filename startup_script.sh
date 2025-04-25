@@ -9,4 +9,3 @@ activate() {
 activate
 which python3
 python3 main.py
-
